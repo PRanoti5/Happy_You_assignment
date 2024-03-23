@@ -1,0 +1,259 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* sidebar */
+ .sidebar {
+    width: 5rem;
+    height: 100%;
+    background-color: #eee;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between ;
+    align-items: center;
+    z-index: 10;
+}
+
+.menu-icon {
+   margin-top: 3rem;
+   cursor: pointer;
+}
+ 
+.social-icon {
+    margin-top: 20rem;
+    list-style: none;
+    padding: 0;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-link {
+    font-size: 2rem;
+    color: #002732;
+    transition: color .3s;
+}
+
+.social-link:hover {
+    color: #e3756f;
+}
+
+.year {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #010101;
+}
+ /* End of sidebar */
+
+ /*MAIN*/
+ /*NAVBAR*/
+.navbar img {
+    margin-left: 6rem;
+    height: 8rem;
+    width: 8rem;
+    margin-right: auto;
+}
+
+.navbar {
+    margin-left: 5rem;
+    display: flex;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 2rem;
+}
+
+.navbar ul li {
+    padding: 0 2rem;
+    cursor: pointer;
+}
+
+.navbar ul li a {
+    flex-direction: row;
+    color: #010101;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+ /*END OF NAVBAR*/
+#home {
+    height: 80vh;
+    margin-left: 5rem;
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(#fff 0%, #fff 30%, #e3756f 60%, #e3756f 100%) ;
+}
+
+#home h1 {
+    margin-top: 20rem;
+    font-size: 5rem;
+}
+
+#home h3 {
+    font-size: 1.5rem;
+}
+
+.download-app {
+    text-align: center; 
+}
+
+#home .cta-button {
+    margin-top: 2rem;
+}
+
+.btn-download {
+    display: inline-block;
+    padding: 1.2rem 2.5rem;
+    background-color: #e3756f;
+    border-radius: 10rem;
+    color: #000;
+    text-decoration: none;
+    font-size: 2rem;
+    transition: background-color 0.3s;
+}
+
+.btn-download:hover {
+    background-color: #dd281f;
+}
+ /*END OF MAIN*/
+
+/*-About us*/
+#about {
+    text-align: center;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+}
+
+#about h3 {
+    font-size: 2rem;
+}
+
+#about p {
+    font-size: 1.5rem;
+    padding: 0 3rem;
+}
+
+#about ul {
+    list-style-type: none;
+}
+
+#about ul li {
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.circular-image {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 10px; /* Adjust spacing between images */
+}
+
+.circular-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* END OF About us*/
+
+ /*Personalized Recommendations*/
+ #service {
+    margin-top: 5rem;
+    padding: 2.5rem;
+    text-align: center; 
+}
+
+#service h2 {
+    color: #000;
+    font-size: 2.5rem;
+}
+
+#service h3{
+    color: #000;
+    font-size: 1.5rem;
+}
+
+.cards {
+display: flex;
+justify-content: space-around;
+
+}
+
+.card {
+    margin-top: 20px;
+    border: 0.2rem solid #000;
+    width: 15rem;
+    background-color: #6bc0c933;
+    height: 18rem;
+    border-radius: 2rem;
+    transition: ease 0.3s;
+}
+
+.card h3 {
+    color: #000;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.card ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.card ul li {
+    font-size: 1.2rem;
+
+}
+ /*END OF Personalized Recommendations*/
+
+/*services section*/
+.service {
+    padding: 2.5rem;
+    text-align: center; 
+    color: #000;
+}
+
+.service h2 {
+   font-size: 2.5rem;
+}
+
+/* END OF services section*/
+/*footer*/
+.footer {
+    margin-top: 8rem;
+    background: linear-gradient(#fff, #e3756f);
+    margin-left: 5rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+.footer h3 {
+    font-size: 2rem;
+}
+
+.footer p {
+    font-size: 1.5rem;
+}
+/*END*/
